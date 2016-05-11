@@ -25,12 +25,7 @@ Inspirations:
 The project runs with React by default and hot replacement of changes to the modules. Currently it is on 0.14.8.
 
 ### CSS Modules
-Scope your css by placing all css for a component in .name-of-your-component.
-
-To turn off CSS Modules remove it from the `webpack.config.js` file.
-
-### Babel and Linting
-Both Node server and frontend code runs with Babel. And all of it is linted. With atom you install the `linter` package, then `linter-eslint` and `linter-jscs`. You are covered. Also run `npm run eslint` or `npm run jscs` to verify all files. I would recommend installing `language-babel` package too for syntax highlighting
+Scope your css by placing all css for a component in .name-of-your-component and adding the className attribute to your React component.
 
 ###Note:
 Using node v4.4.3.  Other versions of node haven't been checked.
